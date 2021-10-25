@@ -1,0 +1,128 @@
+/* Fonts */
+@font-face {
+  font-family: 'SpaceMonoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-mono-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/space-mono-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/space-mono-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/space-mono-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/space-mono-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/space-mono-regular.svg#SpaceMono') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'SpaceMonoBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/space-mono-bold.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/space-mono-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/space-mono-bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/space-mono-bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/space-mono-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/space-mono-bold.svg#SpaceMono') format('svg'); /* Legacy iOS */
+}
+
+/* mulish-regular - latin */
+@font-face {
+  font-family: 'MulishRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/mulish-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mulish-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mulish-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mulish-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mulish-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mulish-v5-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+/* mulish-700 - latin */
+@font-face {
+  font-family: 'Mulish700';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/mulish-v5-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mulish-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mulish-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mulish-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mulish-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mulish-v5-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+/* mulish-900 - latin */
+@font-face {
+  font-family: 'Mulish900';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/mulish-v5-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/mulish-v5-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/mulish-v5-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/mulish-v5-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/mulish-v5-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/mulish-v5-latin-900.svg#Mulish') format('svg'); /* Legacy iOS */
+}
+
+/* Global */
+	body{
+		font-family: 'SpaceMonoRegular', sans-serif;
+		font-size: 100%;
+	}
+	:root{
+		--rosa: #E01656;
+		--azul: #4266c7;
+		--grisclaro: #eaeaea;
+		--lavanda: #BACDFF;
+	}
+
+/* Tipografía */
+	
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Mulish700', sans-serif;
+	}
+	
+/* Botones */
+	.btn{
+		border-radius: 32px;
+		padding: .8vh 3.5vh;
+		transition: all .2s ease-in-out;
+	}
+	.btn:hover{
+		box-shadow: 0px 2px 10px -2px rgba(0,0,0,0.62);
+		-webkit-box-shadow: 0px 2px 10px -2px rgba(0,0,0,0.62);
+		transform: translateY(-.2vh);
+	}
+	.btn-rosa{
+		background-color: var(--rosa);
+		color: #fff;
+	}
+	.btn-rosa:hover{
+		color: #fff;
+	}
+	.btn-azul{
+		background-color: var(--azul);
+		color: #fff;
+	}
+	.btn-azul:hover{
+		color: #fff;
+	}
+
+/* Forms */
+	label{
+		display: block;
+		margin-bottom: .5vh;
+	}
+	input{
+		background-color: var(--grisclaro);
+		border:none;
+		border-radius: 8px;
+		padding: .8vh 1vh;
+		width: 100%;
+		margin-bottom: .5vh;
+	}
+	.input-div{
+		margin-bottom: 1vh;
+	}
+
