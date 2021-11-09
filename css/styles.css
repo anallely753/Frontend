@@ -1,3 +1,6 @@
+html, body {
+  min-height: 100%;
+}
 /* Fonts */
 @font-face {
   font-family: 'SpaceMonoRegular';
@@ -69,6 +72,7 @@
 	body{
 		font-family: 'SpaceMonoRegular', sans-serif;
 		font-size: 100%;
+    
 	}
 	:root{
 		--rosa: #E01656;
@@ -126,3 +130,28 @@
 		margin-bottom: 1vh;
 	}
 
+/* Colores titulos */
+  .ti_reg{
+    color: var(--rosa);
+  }
+  .ti_log{
+    color: var(--azul);
+  }
+
+/* Colores enlaces */
+  .a_reg{
+    color: var(--rosa);
+  }
+  .a_log{
+    color: var(--azul);
+  }
+/* margenes */
+  .main_log_reg{
+    margin-top: 7rem;
+    display: block;
+  }
+/* body login/register */
+  .body_log{
+    background: rgb(186,205,255);
+    background: linear-gradient(90deg, rgba(186,205,255,1) 39%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+  }
