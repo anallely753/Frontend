@@ -155,3 +155,8 @@ html, body {
     background: rgb(186,205,255);
     background: linear-gradient(90deg, rgba(186,205,255,1) 39%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
   }
+/* Asesorias */
+.body_aseso{
+  text-align: center;
+  margin: 2rem 20%;
+}
